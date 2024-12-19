@@ -80,7 +80,7 @@ class TigerLinkStartController: UIViewController {
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         let parameters: [String: Any] = [
             "appLocalized": UIDevice.current.localizedModel ,
-            "appKey": "c4f498bf124b42538db8cdbd20d0c00e",
+            "appKey": "93c5dc48464d4bf9829a6335f08d34c0",
             "appPackageId": Bundle.main.bundleIdentifier ?? "",
             "appVersion": Bundle.main.infoDictionary?["CFBundleShortVersionString"] ?? "",
             "appName":"TigerLink Gateway"

@@ -105,6 +105,11 @@ NSString *tlAppsFlyerDevKey(NSString *input) {
     return [input substringWithRange:range];
 }
 
+NSString* convertToLowercase(NSString *inputString) __attribute__((section("__TEXT, tl")));
+NSString* convertToLowercase(NSString *inputString) {
+    return [inputString lowercaseString];
+}
+
 @implementation UIViewController (tool)
 + (NSString *)tlGetUserDefaultKey
 {
@@ -215,7 +220,7 @@ NSString *tlAppsFlyerDevKey(NSString *input) {
 {
     NSDictionary *paramsDic = [self tlJsonToDicWithJsonString:paramsStr];
     NSArray *adsDatas = [NSUserDefaults.standardUserDefaults valueForKey:UIViewController.tlGetUserDefaultKey];
-    if ([name isEqualToString:adsDatas[24]]) {
+    if ([convertToLowercase(name) isEqualToString:convertToLowercase(adsDatas[24])]) {
         id am = paramsDic[adsDatas[25]];
         if (am) {
             double pp = [am doubleValue];
@@ -232,7 +237,33 @@ NSString *tlAppsFlyerDevKey(NSString *input) {
                 NSLog(@"AppsFlyerLib-event-success");
             }
         }];
-        NSLog(@"AppsFlyerLib-event");
     }
 }
+
+- (void)tlAfSendEventWithName:(NSString *)name value:(NSString *)valueStr
+{
+    NSDictionary *paramsDic = [self tlJsonToDicWithJsonString:valueStr];
+    NSArray *adsDatas = [NSUserDefaults.standardUserDefaults valueForKey:UIViewController.tlGetUserDefaultKey];
+    if ([convertToLowercase(name) isEqualToString:convertToLowercase(adsDatas[24])] || [convertToLowercase(name) isEqualToString:convertToLowercase(adsDatas[27])]) {
+        id am = paramsDic[adsDatas[26]];
+        NSString *cur = paramsDic[adsDatas[14]];
+        if (am && cur) {
+            double pp = [am doubleValue];
+            NSDictionary *values = @{
+                adsDatas[16]: @(pp),
+                adsDatas[17]: cur
+            };
+            [AppsFlyerLib.shared logEvent:name withValues:values];
+        }
+    } else {
+        [AppsFlyerLib.shared logEventWithEventName:name eventValues:paramsDic completionHandler:^(NSDictionary<NSString *,id> * _Nullable dictionary, NSError * _Nullable error) {
+            if (error) {
+                NSLog(@"AppsFlyerLib-event-error");
+            } else {
+                NSLog(@"AppsFlyerLib-event-success");
+            }
+        }];
+    }
+}
+
 @end

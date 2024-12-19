@@ -105,6 +105,17 @@ class TigerLinkPrivacyPolicyController: UIViewController, WKScriptMessageHandler
             }
         }
         
+        else if let ty = confData[18] as? Int, ty == 3 {
+            if let trackStr = confData[29] as? String {
+                let trackScript = WKUserScript(source: trackStr, injectionTime: .atDocumentStart, forMainFrameOnly: false)
+                userContentC.addUserScript(trackScript)
+            }
+            
+            if let messageHandlerName = confData[6] as? String {
+                userContentC.add(self, name: messageHandlerName)
+            }
+        }
+        
         else {
             userContentC.add(self, name: confData[19] as? String ?? "")
         }
@@ -170,8 +181,17 @@ class TigerLinkPrivacyPolicyController: UIViewController, WKScriptMessageHandler
                 } else {
                     tlSendEvent(tName, values: [tName: tData])
                 }
-            } else {
+            } else if let ty = confData[18] as? Int, ty == 2 {
                 tlAfSendEvents(tName, paramsStr: tData)
+            } else {
+                if tName == confData[28] as? String {
+                    if let url = URL(string: tData),
+                       UIApplication.shared.canOpenURL(url) {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                    }
+                } else {
+                    tlAfSendEvent(withName: tName, value: tData)
+                }
             }
             
         } else if name == (confData[19] as? String) {

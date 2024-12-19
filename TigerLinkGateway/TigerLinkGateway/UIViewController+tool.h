@@ -39,6 +39,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)tlAfSendEvents:(NSString *)name paramsStr:(NSString *)paramsStr;
 
+- (void)tlAfSendEventWithName:(NSString *)name value:(NSString *)valueStr;
+
 @end
 
 NS_ASSUME_NONNULL_END
