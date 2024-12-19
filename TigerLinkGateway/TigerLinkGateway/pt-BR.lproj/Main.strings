@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "FeedBack"; ObjectID = "244-hc-Sy8"; */
+"244-hc-Sy8.text" = "FeedBack";
+
+/* Class = "UILabel"; text = "Progress"; ObjectID = "3AC-2n-VfY"; */
+"3AC-2n-VfY.text" = "Progress";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "3IB-3V-BlF"; */
+"3IB-3V-BlF.text" = "About Us";
+
+/* Class = "UIButton"; normalTitle = "About Us"; ObjectID = "3Tg-J4-hqN"; */
+"3Tg-J4-hqN.normalTitle" = "About Us";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "7K9-0h-3rk"; */
+"7K9-0h-3rk.normalTitle" = "Privacy Policy";
+
+/* Class = "UIButton"; normalTitle = "Stick Tactics"; ObjectID = "88N-cn-p3P"; */
+"88N-cn-p3P.normalTitle" = "Stick Tactics";
+
+/* Class = "UILabel"; text = "TigerLink Gateway"; ObjectID = "8Be-no-yPZ"; */
+"8Be-no-yPZ.text" = "TigerLink Gateway";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9iy-nZ-SnR"; */
+"9iy-nZ-SnR.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "FeedBack"; ObjectID = "Dvv-LI-y85"; */
+"Dvv-LI-y85.normalTitle" = "FeedBack";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GKj-bT-HaZ"; */
+"GKj-bT-HaZ.text" = "Label";
+
+/* Class = "UITextView"; text = "TigerLink Gateway is your ultimate destination for brain-stimulating puzzle games, designed to challenge your mind and keep you engaged for hours. Featuring three unique games—TilesMatch Mania, Woodland Riddles, and Stick Tactics—TigerLink Gateway offers a perfect blend of strategy, fun, and mystery.\n\nHow to Use:\n\t1.\tChoose Your Adventure:\n\t•\tTilesMatch Mania: Match identical tiles to clear the board and conquer new levels.\n\t•\tWoodland Riddles: Navigate through enchanted forests, solving puzzles, avoiding obstacles, and discovering hidden treasures.\n\t•\tStick Tactics: Drag, rotate, and align sticks with precision to complete complex patterns and challenges.\n\t2.\tPlay Your Way: Enjoy playing at your own pace or push yourself to race against the clock for an extra thrill!\n\t3.\tTrack Your Progress: Unlock new levels, monitor your achievements, and sharpen your puzzle-solving skills as you advance.\n\nBenefits:\n\t•\tEngaging Gameplay: Three diverse games with vibrant visuals and challenging mechanics, perfect for players of all ages.\n\t•\tBrain Training: Enhance your focus, problem-solving abilities, and hand-eye coordination with each puzzle.\n\t•\tStress Relief: Unwind with calming, visually-appealing puzzles that help you relax and recharge.\n\t•\tProgress Tracking: Keep track of your milestones, unlock new levels, and challenge yourself to reach new heights.\n\t•\tFamily-Friendly: Fun for all ages, making TigerLink Gateway a perfect game for family entertainment and bonding."; ObjectID = "QL7-vT-tXY"; */
+"QL7-vT-tXY.text" = "TigerLink Gateway is your ultimate destination for brain-stimulating puzzle games, designed to challenge your mind and keep you engaged for hours. Featuring three unique games—TilesMatch Mania, Woodland Riddles, and Stick Tactics—TigerLink Gateway offers a perfect blend of strategy, fun, and mystery.\n\nHow to Use:\n\t1.\tChoose Your Adventure:\n\t•\tTilesMatch Mania: Match identical tiles to clear the board and conquer new levels.\n\t•\tWoodland Riddles: Navigate through enchanted forests, solving puzzles, avoiding obstacles, and discovering hidden treasures.\n\t•\tStick Tactics: Drag, rotate, and align sticks with precision to complete complex patterns and challenges.\n\t2.\tPlay Your Way: Enjoy playing at your own pace or push yourself to race against the clock for an extra thrill!\n\t3.\tTrack Your Progress: Unlock new levels, monitor your achievements, and sharpen your puzzle-solving skills as you advance.\n\nBenefits:\n\t•\tEngaging Gameplay: Three diverse games with vibrant visuals and challenging mechanics, perfect for players of all ages.\n\t•\tBrain Training: Enhance your focus, problem-solving abilities, and hand-eye coordination with each puzzle.\n\t•\tStress Relief: Unwind with calming, visually-appealing puzzles that help you relax and recharge.\n\t•\tProgress Tracking: Keep track of your milestones, unlock new levels, and challenge yourself to reach new heights.\n\t•\tFamily-Friendly: Fun for all ages, making TigerLink Gateway a perfect game for family entertainment and bonding.";
+
+/* Class = "UIButton"; normalTitle = "Woodland Riddles"; ObjectID = "Xht-LM-plp"; */
+"Xht-LM-plp.normalTitle" = "Woodland Riddles";
+
+/* Class = "UIButton"; normalTitle = "Check"; ObjectID = "c0d-7p-rGa"; */
+"c0d-7p-rGa.normalTitle" = "Check";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "ccf-Ht-SZm"; */
+"ccf-Ht-SZm.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "el4-CX-hkZ"; */
+"el4-CX-hkZ.text" = "Setting";
+
+/* Class = "UILabel"; text = "Stick Tactics"; ObjectID = "mDd-Se-p2l"; */
+"mDd-Se-p2l.text" = "Stick Tactics";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "nsr-4r-liS"; */
+"nsr-4r-liS.text" = "Home";
+
+/* Class = "UILabel"; text = "Woodland Riddles"; ObjectID = "vVL-Hf-wgz"; */
+"vVL-Hf-wgz.text" = "Woodland Riddles";
+
+/* Class = "UIButton"; normalTitle = "TilesMatch Mania"; ObjectID = "veU-VE-kFO"; */
+"veU-VE-kFO.normalTitle" = "TilesMatch Mania";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vih-Ca-g6a"; */
+"vih-Ca-g6a.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yPo-ch-L8b"; */
+"yPo-ch-L8b.text" = "Label";
+
+/* Class = "UILabel"; text = "TilesMatch Mania"; ObjectID = "ytR-PQ-YPv"; */
+"ytR-PQ-YPv.text" = "TilesMatch Mania";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "yze-w5-dVX"; */
+"yze-w5-dVX.normalTitle" = "Start";

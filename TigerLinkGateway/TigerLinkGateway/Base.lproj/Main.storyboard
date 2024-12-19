@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h42-VN-f3K">
     <device id="retina6_7" orientation="landscape" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,14 +13,11 @@
         <!--Tiger Link Privacy Policy Controller-->
         <scene sceneID="e25-LX-a2c">
             <objects>
-                <viewController id="C5a-KS-gO1" customClass="TigerLinkPrivacyPolicyController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TigerLinkPrivacyPolicyController" id="C5a-KS-gO1" customClass="TigerLinkPrivacyPolicyController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WAc-YP-hh2">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="gZC-EL-p3G">
-                                <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
-                            </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENy-wg-fen">
                                 <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -56,15 +54,18 @@
                             <constraint firstAttribute="trailing" secondItem="ENy-wg-fen" secondAttribute="trailing" id="GsO-YA-7fY"/>
                             <constraint firstItem="LMu-Le-Xp8" firstAttribute="top" secondItem="Psr-Af-Md2" secondAttribute="top" constant="20" id="I9j-w8-hjK"/>
                             <constraint firstItem="0Re-aR-Uu5" firstAttribute="centerY" secondItem="WAc-YP-hh2" secondAttribute="centerY" id="Knb-li-ggr"/>
-                            <constraint firstAttribute="trailing" secondItem="gZC-EL-p3G" secondAttribute="trailing" id="RG6-X9-UtF"/>
-                            <constraint firstItem="gZC-EL-p3G" firstAttribute="top" secondItem="WAc-YP-hh2" secondAttribute="top" id="ZOl-Jc-an5"/>
                             <constraint firstItem="ENy-wg-fen" firstAttribute="leading" secondItem="WAc-YP-hh2" secondAttribute="leading" id="hTR-1e-aOy"/>
-                            <constraint firstAttribute="bottom" secondItem="gZC-EL-p3G" secondAttribute="bottom" id="hrS-ux-JFj"/>
-                            <constraint firstItem="gZC-EL-p3G" firstAttribute="leading" secondItem="WAc-YP-hh2" secondAttribute="leading" id="orb-3E-m23"/>
                             <constraint firstItem="Psr-Af-Md2" firstAttribute="trailing" secondItem="LMu-Le-Xp8" secondAttribute="trailing" constant="20" id="sSK-dH-cyR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Q7a-zI-lGb"/>
+                    <connections>
+                        <outlet property="backButton" destination="LMu-Le-Xp8" id="X5c-vw-2EP"/>
+                        <outlet property="bottomCos" destination="1X6-6X-grq" id="3dd-cj-rMB"/>
+                        <outlet property="indicatorView" destination="0Re-aR-Uu5" id="dXR-3A-AKn"/>
+                        <outlet property="topCos" destination="8Qt-xu-Nqo" id="WHw-za-5aX"/>
+                        <outlet property="webView" destination="ENy-wg-fen" id="4We-Ac-eg9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eh8-t8-w9s" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,7 +74,7 @@
         <!--Tiger Link Third Game Controller-->
         <scene sceneID="k2M-ez-pow">
             <objects>
-                <viewController id="HIF-C6-5Tv" customClass="TigerLinkThirdGameController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HIF-C6-5Tv" customClass="TigerLinkThirdGameController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dkY-rN-42O">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,7 +180,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stick Tactics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDd-Se-p2l">
-                                        <rect key="frame" x="28.000000000000014" y="7.9999999999999964" width="235.33333333333337" height="50.666666666666657"/>
+                                        <rect key="frame" x="74.000000000000014" y="21" width="143.33333333333337" height="27"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -187,14 +188,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="mDd-Se-p2l" secondAttribute="bottom" constant="10" id="6kT-NW-aWk"/>
-                                    <constraint firstItem="mDd-Se-p2l" firstAttribute="top" secondItem="v2x-sY-bOM" secondAttribute="top" constant="8" id="QqZ-ah-5nB"/>
                                     <constraint firstAttribute="bottom" secondItem="nkV-7n-OSx" secondAttribute="bottom" id="TOD-uK-8WT"/>
                                     <constraint firstItem="nkV-7n-OSx" firstAttribute="leading" secondItem="v2x-sY-bOM" secondAttribute="leading" id="ZJx-pr-5xE"/>
+                                    <constraint firstItem="mDd-Se-p2l" firstAttribute="centerX" secondItem="v2x-sY-bOM" secondAttribute="centerX" id="i6G-TU-Y8o"/>
+                                    <constraint firstItem="mDd-Se-p2l" firstAttribute="centerY" secondItem="v2x-sY-bOM" secondAttribute="centerY" id="ier-LN-0Md"/>
                                     <constraint firstItem="nkV-7n-OSx" firstAttribute="top" secondItem="v2x-sY-bOM" secondAttribute="top" id="ipv-w5-nlH"/>
                                     <constraint firstAttribute="trailing" secondItem="nkV-7n-OSx" secondAttribute="trailing" id="j8v-vO-zJf"/>
-                                    <constraint firstItem="mDd-Se-p2l" firstAttribute="leading" secondItem="v2x-sY-bOM" secondAttribute="leading" constant="28" id="mAr-t5-0Rs"/>
-                                    <constraint firstAttribute="trailing" secondItem="mDd-Se-p2l" secondAttribute="trailing" constant="28" id="rma-hU-2yk"/>
                                 </constraints>
                             </view>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CPD-Sz-Z4Y">
@@ -275,7 +274,7 @@
         <!--Tiger Link Home Controller-->
         <scene sceneID="DJa-TS-zXN">
             <objects>
-                <viewController id="TAF-ZZ-ayh" customClass="TigerLinkHomeController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TAF-ZZ-ayh" customClass="TigerLinkHomeController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OBx-gJ-Dhf">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -471,7 +470,7 @@
         <!--Tiger Link Wooden Puzzle Controller-->
         <scene sceneID="9RT-Pd-Pcb">
             <objects>
-                <viewController id="m8G-YJ-bX1" customClass="TigerLinkWoodenPuzzleController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m8G-YJ-bX1" customClass="TigerLinkWoodenPuzzleController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tUw-UN-EFC">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -640,7 +639,7 @@
         <!--Tiger Link Setting Controller-->
         <scene sceneID="MT2-X9-Nlw">
             <objects>
-                <viewController id="H3Y-Pb-cKg" customClass="TigerLinkSettingController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="H3Y-Pb-cKg" customClass="TigerLinkSettingController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fbc-AO-4KB">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -853,7 +852,7 @@
         <!--Tiger Link Feed Back Controller-->
         <scene sceneID="WSE-6Z-nie">
             <objects>
-                <viewController id="gn5-vl-Sti" customClass="TigerLinkFeedBackController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gn5-vl-Sti" customClass="TigerLinkFeedBackController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uwe-Ga-Ke9">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1011,7 +1010,7 @@
         <!--Tiger Link Tile Matching Controller-->
         <scene sceneID="WbX-wZ-zRA">
             <objects>
-                <viewController id="5PV-ut-6ZX" customClass="TigerLinkTileMatchingController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5PV-ut-6ZX" customClass="TigerLinkTileMatchingController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ITP-4z-Rmh">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1219,7 +1218,7 @@
         <!--Tiger Link Start Controller-->
         <scene sceneID="L6b-fK-n6f">
             <objects>
-                <viewController id="h42-VN-f3K" customClass="TigerLinkStartController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="h42-VN-f3K" customClass="TigerLinkStartController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="03F-1S-E5J">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1303,10 +1302,9 @@
         <!--Tiger LinK Navigation Controller-->
         <scene sceneID="shF-zg-qiZ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lLB-qs-Voh" customClass="TigerLinKNavigationController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lLB-qs-Voh" customClass="TigerLinKNavigationController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ldp-iZ-eqH">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1321,7 +1319,7 @@
         <!--Tiger Link About Us Controller-->
         <scene sceneID="LxS-yV-wQK">
             <objects>
-                <viewController id="jDG-be-jUX" customClass="TigerLinkAboutUsController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jDG-be-jUX" customClass="TigerLinkAboutUsController" customModule="TigerLinkGateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0be-wU-Sy3">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
