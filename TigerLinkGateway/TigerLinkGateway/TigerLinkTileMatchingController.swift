@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TileMatchingGameViewController: UIViewController {
+class TigerLinkTileMatchingController: UIViewController {
     
     // Outlets
     @IBOutlet weak var puzzleBoard: UICollectionView!
@@ -105,7 +105,7 @@ class TileMatchingGameViewController: UIViewController {
 }
 
 // MARK: - UICollectionView Delegate & DataSource
-extension TileMatchingGameViewController: UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
+extension TigerLinkTileMatchingController: UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == puzzleBoard {
             return puzzleTiles.count

@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE614245739D3E7597148249 /* Pods_TigerLink_Gateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0BD987A46B6144A29153FA /* Pods_TigerLink_Gateway.framework */; };
+		2E4E06BE26A638422CC0AF1A /* Pods_TigerLinkGateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6BFA6F4A0096203E3ACFF4 /* Pods_TigerLinkGateway.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1619EB818E391E8B564EC96F /* Pods-TigerLink Gateway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerLink Gateway.debug.xcconfig"; path = "Target Support Files/Pods-TigerLink Gateway/Pods-TigerLink Gateway.debug.xcconfig"; sourceTree = "<group>"; };
-		7D0BD987A46B6144A29153FA /* Pods_TigerLink_Gateway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TigerLink_Gateway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDC515C8DEBC1DACB21FFB4 /* Pods-TigerLinkGateway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerLinkGateway.release.xcconfig"; path = "Target Support Files/Pods-TigerLinkGateway/Pods-TigerLinkGateway.release.xcconfig"; sourceTree = "<group>"; };
+		61D101B626E22204151F18BF /* Pods-TigerLinkGateway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerLinkGateway.debug.xcconfig"; path = "Target Support Files/Pods-TigerLinkGateway/Pods-TigerLinkGateway.debug.xcconfig"; sourceTree = "<group>"; };
 		94F32CC6BF19EAD76AADF53B /* Pods-TigerLink Gateway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerLink Gateway.release.xcconfig"; path = "Target Support Files/Pods-TigerLink Gateway/Pods-TigerLink Gateway.release.xcconfig"; sourceTree = "<group>"; };
-		FF747DB42D1421B400D4C49B /* TigerLink Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TigerLink Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6BFA6F4A0096203E3ACFF4 /* Pods_TigerLinkGateway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TigerLinkGateway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF747DB42D1421B400D4C49B /* TigerLinkGateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigerLinkGateway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FF747DC62D1421B400D4C49B /* Exceptions for "TigerLink Gateway" folder in "TigerLink Gateway" target */ = {
+		FF747DC62D1421B400D4C49B /* Exceptions for "TigerLinkGateway" folder in "TigerLinkGateway" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = FF747DB32D1421B400D4C49B /* TigerLink Gateway */;
+			target = FF747DB32D1421B400D4C49B /* TigerLinkGateway */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FF747DB62D1421B400D4C49B /* TigerLink Gateway */ = {
+		FF747DB62D1421B400D4C49B /* TigerLinkGateway */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				FF747DC62D1421B400D4C49B /* Exceptions for "TigerLink Gateway" folder in "TigerLink Gateway" target */,
+				FF747DC62D1421B400D4C49B /* Exceptions for "TigerLinkGateway" folder in "TigerLinkGateway" target */,
 			);
-			path = "TigerLink Gateway";
+			path = TigerLinkGateway;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -43,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE614245739D3E7597148249 /* Pods_TigerLink_Gateway.framework in Frameworks */,
+				2E4E06BE26A638422CC0AF1A /* Pods_TigerLinkGateway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +57,8 @@
 			children = (
 				1619EB818E391E8B564EC96F /* Pods-TigerLink Gateway.debug.xcconfig */,
 				94F32CC6BF19EAD76AADF53B /* Pods-TigerLink Gateway.release.xcconfig */,
+				61D101B626E22204151F18BF /* Pods-TigerLinkGateway.debug.xcconfig */,
+				2FDC515C8DEBC1DACB21FFB4 /* Pods-TigerLinkGateway.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -62,7 +66,7 @@
 		BE0203908D5E9952ED4A37D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D0BD987A46B6144A29153FA /* Pods_TigerLink_Gateway.framework */,
+				FB6BFA6F4A0096203E3ACFF4 /* Pods_TigerLinkGateway.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,7 +74,7 @@
 		FF747DAB2D1421B400D4C49B = {
 			isa = PBXGroup;
 			children = (
-				FF747DB62D1421B400D4C49B /* TigerLink Gateway */,
+				FF747DB62D1421B400D4C49B /* TigerLinkGateway */,
 				FF747DB52D1421B400D4C49B /* Products */,
 				A9BF7ED2490941F4BEF7E9A9 /* Pods */,
 				BE0203908D5E9952ED4A37D7 /* Frameworks */,
@@ -80,7 +84,7 @@
 		FF747DB52D1421B400D4C49B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF747DB42D1421B400D4C49B /* TigerLink Gateway.app */,
+				FF747DB42D1421B400D4C49B /* TigerLinkGateway.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF747DB32D1421B400D4C49B /* TigerLink Gateway */ = {
+		FF747DB32D1421B400D4C49B /* TigerLinkGateway */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF747DC72D1421B400D4C49B /* Build configuration list for PBXNativeTarget "TigerLink Gateway" */;
+			buildConfigurationList = FF747DC72D1421B400D4C49B /* Build configuration list for PBXNativeTarget "TigerLinkGateway" */;
 			buildPhases = (
 				977513FB09DFED41467F81F3 /* [CP] Check Pods Manifest.lock */,
 				FF747DB02D1421B400D4C49B /* Sources */,
@@ -103,11 +107,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FF747DB62D1421B400D4C49B /* TigerLink Gateway */,
+				FF747DB62D1421B400D4C49B /* TigerLinkGateway */,
 			);
-			name = "TigerLink Gateway";
+			name = TigerLinkGateway;
 			productName = "TigerLink Gateway";
-			productReference = FF747DB42D1421B400D4C49B /* TigerLink Gateway.app */;
+			productReference = FF747DB42D1421B400D4C49B /* TigerLinkGateway.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF747DAF2D1421B400D4C49B /* Build configuration list for PBXProject "TigerLink Gateway" */;
+			buildConfigurationList = FF747DAF2D1421B400D4C49B /* Build configuration list for PBXProject "TigerLinkGateway" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -139,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF747DB32D1421B400D4C49B /* TigerLink Gateway */,
+				FF747DB32D1421B400D4C49B /* TigerLinkGateway */,
 			);
 		};
 /* End PBXProject section */
@@ -161,15 +165,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TigerLink Gateway/Pods-TigerLink Gateway-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TigerLinkGateway/Pods-TigerLinkGateway-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TigerLink Gateway/Pods-TigerLink Gateway-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TigerLinkGateway/Pods-TigerLinkGateway-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigerLink Gateway/Pods-TigerLink Gateway-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TigerLinkGateway/Pods-TigerLinkGateway-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		977513FB09DFED41467F81F3 /* [CP] Check Pods Manifest.lock */ = {
@@ -187,7 +191,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TigerLink Gateway-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TigerLinkGateway-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -209,14 +213,14 @@
 /* Begin XCBuildConfiguration section */
 		FF747DC82D1421B400D4C49B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1619EB818E391E8B564EC96F /* Pods-TigerLink Gateway.debug.xcconfig */;
+			baseConfigurationReference = 61D101B626E22204151F18BF /* Pods-TigerLinkGateway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TigerLink Gateway/Info.plist";
+				INFOPLIST_FILE = TigerLinkGateway/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TigerLink Gateway";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -241,14 +245,14 @@
 		};
 		FF747DC92D1421B400D4C49B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94F32CC6BF19EAD76AADF53B /* Pods-TigerLink Gateway.release.xcconfig */;
+			baseConfigurationReference = 2FDC515C8DEBC1DACB21FFB4 /* Pods-TigerLinkGateway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TigerLink Gateway/Info.plist";
+				INFOPLIST_FILE = TigerLinkGateway/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TigerLink Gateway";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -393,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF747DAF2D1421B400D4C49B /* Build configuration list for PBXProject "TigerLink Gateway" */ = {
+		FF747DAF2D1421B400D4C49B /* Build configuration list for PBXProject "TigerLinkGateway" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF747DCA2D1421B400D4C49B /* Debug */,
@@ -402,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF747DC72D1421B400D4C49B /* Build configuration list for PBXNativeTarget "TigerLink Gateway" */ = {
+		FF747DC72D1421B400D4C49B /* Build configuration list for PBXNativeTarget "TigerLinkGateway" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF747DC82D1421B400D4C49B /* Debug */,

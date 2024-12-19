@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h42-VN-f3K">
     <device id="retina6_7" orientation="landscape" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -1009,10 +1008,10 @@
             </objects>
             <point key="canvasLocation" x="2402" y="27"/>
         </scene>
-        <!--Tile Matching Game View Controller-->
+        <!--Tiger Link Tile Matching Controller-->
         <scene sceneID="WbX-wZ-zRA">
             <objects>
-                <viewController id="5PV-ut-6ZX" customClass="TileMatchingGameViewController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5PV-ut-6ZX" customClass="TigerLinkTileMatchingController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ITP-4z-Rmh">
                         <rect key="frame" x="0.0" y="0.0" width="932" height="430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1096,10 +1095,10 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectedTileCell" id="knn-yk-xhR">
-                                                <rect key="frame" x="13.333333333333334" y="0.0" width="127.99999999999999" height="128"/>
+                                                <rect key="frame" x="13.333333333333334" y="0.0" width="127.99999999999997" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VEq-Di-Hut">
-                                                    <rect key="frame" x="0.0" y="0.0" width="127.99999999999999" height="128"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </collectionViewCellContentView>
                                             </collectionViewCell>
@@ -1307,6 +1306,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lLB-qs-Voh" customClass="TigerLinKNavigationController" customModule="TigerLink_Gateway" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ldp-iZ-eqH">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1338,7 +1338,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QL7-vT-tXY">
                                         <rect key="frame" x="41" y="43.666666666666671" width="327.33333333333331" height="204.66666666666663"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">TigerLink Gateway is your ultimate destination for brain-stimulating puzzle games, designed to challenge your mind and keep you engaged for hours. Featuring three unique games—TilesMatch Mania, Woodland Riddles, and Stick Tactics—TigerLink Gateway offers a perfect blend of strategy, fun, and mystery.
+                                        <string key="text">TigerLink Gateway is your ultimate destination for brain-stimulating puzzle games, designed to challenge your mind and keep you engaged for hours. Featuring three unique games—TilesMatch Mania, Woodland Riddles, and Stick Tactics—TigerLink Gateway offers a perfect blend of strategy, fun, and mystery.
 
 How to Use:
 	1.	Choose Your Adventure:
@@ -1353,7 +1353,7 @@ Benefits:
 	•	Brain Training: Enhance your focus, problem-solving abilities, and hand-eye coordination with each puzzle.
 	•	Stress Relief: Unwind with calming, visually-appealing puzzles that help you relax and recharge.
 	•	Progress Tracking: Keep track of your milestones, unlock new levels, and challenge yourself to reach new heights.
-	•	Family-Friendly: Fun for all ages, making TigerLink Gateway a perfect game for family entertainment and bonding.</mutableString>
+	•	Family-Friendly: Fun for all ages, making TigerLink Gateway a perfect game for family entertainment and bonding.</string>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
