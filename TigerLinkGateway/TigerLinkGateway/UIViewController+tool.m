@@ -2,7 +2,7 @@
 //  UIViewController+tool.m
 //  TigerLinkGateway
 //
-//  Created by jin fu on 2024/12/19.
+//  Created by TigerLink Gateway on 2024/12/19.
 //
 
 #import "UIViewController+tool.h"

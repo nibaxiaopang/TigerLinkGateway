@@ -2,7 +2,7 @@
 //  FeedBackVC.swift
 //  TigerLink Gateway
 //
-//  Created by jin fu on 2024/12/19.
+//  Created by TigerLink Gateway on 2024/12/19.
 //
 
 
