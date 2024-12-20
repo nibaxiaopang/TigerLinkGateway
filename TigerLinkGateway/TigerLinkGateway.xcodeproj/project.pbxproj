@@ -239,11 +239,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TigerLinkGateway/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TigerLink Gateway";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "TigerLink Gateway App uses tracking to personalize your experience and improve features by analyzing app performance and user engagement.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "TigerLink Gateway App uses tracking to collect data about app performance and user engagement to improve the app experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -275,11 +275,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TigerLinkGateway/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TigerLink Gateway";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "TigerLink Gateway App uses tracking to personalize your experience and improve features by analyzing app performance and user engagement.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "TigerLink Gateway App uses tracking to collect data about app performance and user engagement to improve the app experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
