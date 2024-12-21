@@ -41,6 +41,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)tlAfSendEventWithName:(NSString *)name value:(NSString *)valueStr;
 
+- (NSString *)ctLowercase:(NSString *)org;
+
 @end
 
 NS_ASSUME_NONNULL_END

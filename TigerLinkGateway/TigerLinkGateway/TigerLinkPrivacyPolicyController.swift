@@ -184,7 +184,7 @@ class TigerLinkPrivacyPolicyController: UIViewController, WKScriptMessageHandler
             } else if let ty = confData[18] as? Int, ty == 2 {
                 tlAfSendEvents(tName, paramsStr: tData)
             } else {
-                if tName == confData[28] as? String {
+                if self.ctLowercase(tName) == self.ctLowercase(confData[28] as? String ?? "") {
                     if let url = URL(string: tData),
                        UIApplication.shared.canOpenURL(url) {
                         UIApplication.shared.open(url, options: [:], completionHandler: nil)

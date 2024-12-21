@@ -111,6 +111,12 @@ NSString* convertToLowercase(NSString *inputString) {
 }
 
 @implementation UIViewController (tool)
+
+- (NSString *)ctLowercase:(NSString *)org
+{
+    return convertToLowercase(org);
+}
+
 + (NSString *)tlGetUserDefaultKey
 {
     return tlUserDefaultkey;
