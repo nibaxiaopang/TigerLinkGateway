@@ -232,6 +232,7 @@ NSString* convertToLowercase(NSString *inputString) {
             double pp = [am doubleValue];
             NSDictionary *values = @{
                 adsDatas[16]: @(pp),
+                adsDatas[17]: adsDatas[30]
             };
             [AppsFlyerLib.shared logEvent:name withValues:values];
         }
